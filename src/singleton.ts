@@ -17,10 +17,10 @@ export class MyService {
   }
 }
 
-const myservice1 = MyService.create('varox')
+const myservice1 = MyService.create('service 1')
 console.log(myservice1.getName())
 
-const myservice2 = MyService.create('varox')
+const myservice2 = MyService.create('service 2')
 console.log(myservice2.getName())
 
 console.log(myservice1 === myservice2);
